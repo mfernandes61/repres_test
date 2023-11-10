@@ -1,0 +1,87 @@
+---
+title: "doc1"
+author: "Mark Fernandes"
+date: "2023-11-07"
+bibliography: references.bib
+link-citations: yes
+output:
+    html_document:
+      toc: true
+      toc_float: true
+---
+
+___hello___
+
+# Markdown {#markdown-header}.  
+
+Constructivism is a theory in education which posits that individuals or learners do not acquire knowledge and understanding by passively perceiving it within a direct process of knowledge transmission, rather they construct new understandings and knowledge through experience and social discourse, integrating new information with what they already know (prior knowledge). For children, this includes knowledge gained prior to entering school.[3] It is associated with various philosophical positions, particularly in epistemology as well as ontology, politics, and ethics.[4] The origin of the theory is also linked to Swiss developmental psychologist Jean Piaget's theory of cognitive development.
+
+Constructivism is a theory in education which posits that individuals or learners do not acquire knowledge and understanding by passively perceiving it within a direct process of knowledge transmission, rather they construct new understandings and knowledge through experience and social discourse, integrating new information with what they already know (prior knowledge). For children, this includes knowledge gained prior to entering school.[3] It is associated with various philosophical positions, particularly in epistemology as well as ontology, politics, and ethics.[4] The origin of the theory is also linked to Swiss developmental psychologist Jean Piaget's theory of cognitive development.
+
+# links.  
+[link to header](#markdown-header) \
+[Link to Bioinformatics Training timetable](https://training.cam.ac.uk/bioinformatics/event-timetable).  \
+
+
+## Footnotes.  \
+
+Here is a simple footnote[^1].
+With some additional text after it. 
+ :joy: 
+Constructivism is a theory in education which posits that individuals or learners do not acquire knowledge and understanding by passively perceiving it within a direct process of knowledge transmission, rather they construct new understandings and knowledge through experience and social discourse, integrating new information with what they already know (prior knowledge). For children, this includes knowledge gained prior to entering school.[3] It is associated with various philosophical positions, particularly in epistemology as well as ontology, politics, and ethics.[4] The origin of the theory is also linked to Swiss developmental psychologist Jean Piaget's theory of cognitive development.
+
+## more constructivism.   
+
+Constructivism is a theory in education which posits that individuals or learners do not acquire knowledge and understanding by passively perceiving it within a direct process of knowledge transmission, rather they construct new understandings and knowledge through experience and social discourse, integrating new information with what they already know (prior knowledge). For children, this includes knowledge gained prior to entering school.[3] It is associated with various philosophical positions, particularly in epistemology as well as ontology, politics, and ethics.[4] The origin of the theory is also linked to Swiss developmental psychologist Jean Piaget's theory of cognitive development.   
+
+![R Logo](img/Rlogo.png).  
+\
+
+| Column 1 | Column 2 |.  
+| ----------- | ----------- | 
+| Item 1,1 | Item 1,2 |.  
+| Item 2,1 | Item 2,2 |.  
+
+| Column 1    | Column 2    |
+| ----------- | ----------- |
+| Item 1,1    | Item 1,2    |
+| Item 2,1    | Item 2,2    |
+
+| Left align  | Center align | Right align  |
+| :---        |    :----:    |         ---: |
+| Item 1,1    | Item 1,2     | Item 1,3     | 
+| Item 2,1    | Item 2,2     | Item 2,3     |
+
+```
+print("Hello world")
+x <- 1+2
+print(x)
+```
+## ordered lists
+1. Item 1
+2. Item 2
+3. Item 3
+    a. Item 3a
+        i. Item 3a(i)
+        ii. Item 3a(ii)
+4. Item 4
+
+## unordered lists
+* Item 1
+* Item 2
+* Item 3
+    * Item 3a
+        *  Item 3ai
+        * Item 3aii
+    * Item 3b
+    * Item 3c
+* Item 4
+
+## Tasks
+- [ ]  an unchecked task list item
+- [x]  a checked item
+
+# Citations
+Citation to my paper @cardona2014 and @cardona2019 
+
+[^1]: My reference.
